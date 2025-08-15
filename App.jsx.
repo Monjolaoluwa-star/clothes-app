@@ -1,0 +1,17 @@
+import "./App.css";
+
+export default function App() {
+  return (
+    <div className="app">
+      <h1>My Clothes Store</h1>
+      <p>Welcome to my React clothes app!</p>
+
+      <div className="clothes">
+        <div className="item">👕 T-Shirt - $15</div>
+        <div className="item">👖 Jeans - $30</div>
+        <div className="item">👗 Dress - $45</div>
+        <div className="item">🧥 Jacket - $60</div>
+      </div>
+    </div>
+  );
+}
